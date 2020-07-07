@@ -25,5 +25,5 @@
         $n = $n+1;
     }
     // affiche dans la console le nombre de visteur
-    echo "<script>console.log('".$n."');</script>";
+    echo "<script>console.log('Nombre de visite : ".$n."');</script>";
 ?>
