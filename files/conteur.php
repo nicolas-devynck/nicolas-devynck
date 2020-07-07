@@ -1,5 +1,5 @@
 <?php
-    $bdTable = "conteur"; // nom de la table
+    $bdTable = "conteur_visite"; // nom de la table
     // recuperation de l'adresse IP du client (on cherche d'abord a savoir si il est derriere un proxy)
     if(isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
         $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
