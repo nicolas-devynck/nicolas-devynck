@@ -29,6 +29,7 @@
 </head>
 <body>
     <h1>Hello Word</h1>
+    <hr />
     <p>Hello Word !!</p>
 </body>
 </html>
