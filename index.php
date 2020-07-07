@@ -20,8 +20,8 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <!-- Link -->
-    <?php // include "files/pdo.php" ?>
-    <?php // include "files/count.php" ?>
+    <?php include "files/pdo.php" ?>
+    <?php include "files/count.php" ?>
     <script src="files/jquery.js"></script>
     <script src="files/app.js"></script>
     <link rel="stylesheet" type="text/css" href="files/knacss.css">
