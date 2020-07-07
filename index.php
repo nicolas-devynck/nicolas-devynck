@@ -24,10 +24,10 @@
     <link rel="stylesheet" type="text/css" href="files/knacss.css">
     <link rel="stylesheet" type="text/css" href="files/css.css">
     <link rel="icon" type="image/png" href="files/logo.png" />
-    <title>Salut</title>
+    <title>Hello Word</title>
 
 </head>
 <body>
-    <h1>Salut f</h1>
+    <h1>Hello Word</h1>
 </body>
 </html>
