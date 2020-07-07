@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <title>Hello Word</title>
     <!-- Encode -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,15 +20,15 @@
     <meta name="Rating" content="14 years">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <!-- Link -->
-    <?php include "files/pdo.php" ?>
-    <?php include "files/count.php" ?>
+    <!-- Framework -->
     <script src="files/jquery.js"></script>
-    <script src="files/app.js"></script>
     <link rel="stylesheet" type="text/css" href="files/knacss.css">
+    <!-- Link -->
+    <script src="files/app.js"></script>
     <link rel="stylesheet" type="text/css" href="files/css.css">
     <link rel="icon" type="image/png" href="files/logo.png" />
-    <title>Hello Word</title>
+    <?php include "files/pdo.php" ?>
+    <?php include "files/conteur.php" ?>
 </head>
 <body>
     <h1>Hello Word</h1>
