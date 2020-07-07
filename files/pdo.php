@@ -1,9 +1,9 @@
 <?php
     $bdHost = "vps675121.ovh.net";
-    $bdLogin = "nicolas";
+    $bdLogin = "devynck";
     $bdPsw = "dev2084zilch";
-    $bdName = "";
-    $bdTable = "";
+    $bdName = "count";
+    $bdTable = "count";
     
     try {
         $pdo = new PDO("mysql:host=".$bdHost.";dbname=".$bdName, $bdLogin, $bdPsw);
