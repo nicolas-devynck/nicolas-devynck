@@ -35,7 +35,7 @@
     <hr />
     <h2>/!\ Disclamer /!\</h2>
     <p>A toi inconnus qui arriverait ici par hasard, ici il y a rien à voir,<br /> c’est un simple VPS pour faire tout un tas de bidouillage et accessoirement héberger temporairement des scripts pour dépanner</p>
-    <p>Pour les petits hackers en herbe, vous pouvait vous amuser avec ce VPS. il y a rien là-dedans qui pourrait être critique.<br />Évite juste d’exploser mon setup, ça me ferait chier de devoirs passer une nuit blanche pour réinstaller tout le système.<br />PS. Il y a pas grand-chose installer sur ce VPS, je verrais vite s’il y a une backdoor, trojan ou autre saloperie. J’aurais aucun scrupule à faire table rase.</p>
+    <p>Pour les petits hackers en herbe, vous pouvez vous amuser avec ce VPS. il y a rien là-dedans qui pourrait être critique.<br />Évite juste d’exploser mon setup, ça me ferait chier de devoirs passer une nuit blanche pour réinstaller tout le système.<br />PS. Il y a pas grand-chose installer sur ce VPS, je verrais vite s’il y a une backdoor, trojan ou autre saloperie. J’aurais aucun scrupule à faire table rase.</p>
 
 </body>
 </html>
