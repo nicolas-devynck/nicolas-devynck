@@ -57,10 +57,52 @@
 			</header>
 			<aside>
 				<div class="aside">
-					<h2 id="info">Brèves</h2><div id="engr8"></div>
+					<h2 id="info">COMPÉTENCES</h2><div id="engr8"></div>
 					<div class="cache_engrenage"></div>
-					<!-- Brèves --><?php include 'txt/info.txt'; ?>
-					<!-- continuer contact ici -->
+					<!-- competences -->
+					<h3>Informatique :</h3>
+					<p>
+						Analyser les besoins du client.<br/>
+						Établir un cahier des charges.<br/>
+						Installer, entretenir, dépanner, changer et régler du matériel.<br/>
+						Configurer un poste de travail.<br/>
+						Conception Arduino<br/>
+						Programmer en PHP, JavaScript, SQL, HTML, CSS. Notion en Python et C/C++.<br/>
+						Utiliser le système d’exploitation Linux.
+					</p>
+					<h3>Logiciels :</h3>
+					<p>
+						Microsoft office/Libre Office – maîtrise.<br/>
+						Visuel Studio – utilise.<br/>
+						Gimp – notions.<br/>
+						Apache – utilise.<br/>
+						Git – utilise.<br/>
+						Virtualbox – notions.
+					</p>
+					<h3>Vente :</h3>
+					<p>
+						Accueillir une clientèle.<br/>
+						Proposer un service et/ou produit adapté à la demande client.<br/>
+						Réaliser la mise en rayon.<br/>
+						Renseigner un client.<br/>
+						Conclure une vente.
+					</p>
+					<h3>Cuisine :</h3>
+					<p>
+						Préparer/cuire : viandes, poissons et légumes.<br/>
+						Dresser des plats pour le service.<br/>
+						Conditionner un produit.<br/>
+						Entretenir outils et équipements.<br/>
+						Contrôle et application des règles d’hygiène.<br/>
+						Former du personnel à des procédures techniques .
+					</p>
+					<h3>Pâtisserie :</h3>
+					<p>
+						Préparation et cuisson de diverses pâtes.<br/>
+						Notion en confiserie.<br/>
+						Effectuer le montage et la décoration.<br/>
+						Confectionner des chocolats.
+					</p>
 				</div>
 			</aside>
 			<article>
