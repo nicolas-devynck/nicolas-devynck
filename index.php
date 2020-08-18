@@ -119,7 +119,7 @@
 					<!-- rezo -->
 					<div class="rezo">
 						<a href="http://github.com/nicolas-devynck" target="_blank"><img src="css/github.png" height="35" width="35" alt="Github" /><span>Sur Github</span></a>
-						<a href="http://www.facebook.com/devynck.nicolas" target="_blank"><img src="css/fb.png" height="35" width="35" alt="Page FB" /><span>Sur Facebook</span></a>
+						<a href="http://linkedin.com/in/nicolas-devynck-275807195" target="_blank"><img src="css/in.png" height="35" width="35" alt="Page FB" /><span>Sur linkedin</span></a>
 					</div>
 				</div>
 				<div class="clear"></div>
