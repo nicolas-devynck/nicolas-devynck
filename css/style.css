@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS General */
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #666666;
+	padding: 0% 10% 0% 10%;
+	margin: 0%;
+	color: #000066;
+}
+a {
+	text-decoration: none;
+	color: #834231;
+}
+a:hover {
+	color: #555555;
+}
+h2 {
+	border-bottom: solid 2px #888888;
+	text-align: right;
+}
+h3 {
+	font-size: 18px;
+}
+
+/* header */
+header {
+	margin-top: 25px;
+}
+header img {
+	margin: auto;
+	display:block;
+	width: 90%;
+	height: 90%;
+}
+#url, #mail_imp {
+	display:none;
+}
+/* logo */
+#logo {
+	background-image: url(logo.png);
+	background-position: 50% 50%;
+	background-size: cover;
+	position: fixed;
+	top: 6px;
+	left: 11%;
+	width: 30px;
+	height: 30px;
+}
+/* CSS menus */
+.nav {
+	position: fixed;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	background-color: #ffc354;
+	box-shadow: 0px 8px 12px #aaa;
+	border-bottom: solid 2px #000000;
+	padding: 10px;
+	z-index: 1;
+}
+.nav span {
+	white-space: nowrap;
+}
+/* CSS mise en page */
+#cadre {
+	background-color: #ffffff;
+	border-right: solid 3px #000000;
+	border-left: solid 3px #000000;
+	padding: 5% 5% 0% 5%;
+}
+.aside, .footer, .article {
+	text-align:justify;
+	float: left;
+	position: relative;
+	padding: 1%;
+}
+.clear {
+	clear: both;
+}
+.footer {
+	width: 100%;
+	border-top: solid 2px #888888;
+	text-align: center;
+	margin-top: 1%;
+}
+.aside {
+	width: 25%;
+}
+.article {
+	width: 74%;
+	border-left: solid 2px #888888;
+}
+.accordion blockquote {
+	color : #444;
+}
+/* rezo */
+.rezo {
+	text-align: center;
+}
+.rezo img, .rezo span {
+  vertical-align: middle;
+  display: inline-block;
+}
+.rezo a {
+	white-space: nowrap;
+}
+/* CSS Contact */
+.input_contact {
+	width: 50%;
+	margin: auto;
+}
+input[type=text], input[type=email], input[type=url], textarea {
+	border-radius: 5px;
+	background-color: #ffc354;
+	width: 100%;
+}
+::-webkit-input-placeholder { /* Chrome */
+	color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+  opacity: 1;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+textarea {
+	height: 150px;
+}
+.bouton {
+	text-align: center;
+}
+/* Engrenage JQuery */
+.cache_engrenage {
+	margin-bottom:-70px;
+	background-color:#FFF;
+	height: 25px;
+	position: relative;
+	top: -50px;
+}
+#engr1, #engr2, #engr3, #engr4, #engr5 {
+	background-image: url(engr.png);
+	background-position: 50% 50%;
+	background-size: cover;
+	position: fixed;
+}
+#engr6, #engr7, #engr8, #engr9 {
+	background-image: url(engr.png);
+	background-size: 50px 50px;
+	background-size: cover;
+	position: relative;
+	top: -47px;
+	left: -3px;
+	width: 50px;
+	height: 50px;
+	margin-bottom: -20px;
+}
+#engr1 {
+	width: 250px;
+	height: 250px;
+	left: -125px;
+	top: -75px;
+	z-index: -3;
+}
+#engr2 {
+	transform: rotate(25deg);
+	width: 150px;
+	height: 150px;
+	left: 40px;
+	top: 90px;
+	z-index: -2;
+}
+#engr3 {
+	top: -100px;
+	right: 7%;
+	width: 100px;
+	height: 100px;
+	z-index: -1;
+}
+#engr4 {
+	top: -68px;
+	right: 55px;
+	width: 100px;
+	height: 100px;
+}
+#engr5 {
+	top: -35px;
+	right: 12px;
+	width: 50px;
+	height: 50px;
+}
+/* Media Query */
+/* affichage pour tablette */
+@media screen and (max-width: 880px) {
+	header {
+		margin-top: 50px;
+	}
+	h1 {
+		width: 59%;
+	}
+	body {
+		padding: 0% 5% 0% 5%;
+	}
+	.nav {
+		font-size: 16px;
+	}
+	#cadre {
+		border-right: solid 1px;
+		border-left: solid 1px;
+	}
+	.aside, .article {
+		width: 100%;
+		border: none;
+	}
+	.input_contact {
+		width: 65%;
+	}
+	#engr1, #engr2, #engr3, #engr4, #engr5, #logo {
+		display: none;
+	}
+}
+/* affichage pour telephone */
+@media screen and (max-width: 495px) {
+	h1 {
+		width: 76%;
+	}	
+	body {
+		padding: 0%;
+	}
+	#cadre {
+		border: none;
+	}
+	.input_contact {
+		width: 75%;
+	}
+}
+/* Vertion imprimente */
+@media print {
+	#url, #mail {
+		font-size: 16px;
+		font-weight: bold;
+		display:block;
+	}
+	h1 {
+		width: 76%;
+	}
+	body {
+		background-color: #ffffff;
+		padding: 0%;
+		margin: 0%;
+		color: #000066;
+	}
+	#cadre {
+		border: none;
+		padding: 0%;
+	}
+	nav, .ancre, footer, #engr1, #engr2, #engr3, .contact, #logo {
+		display: none;
+	}
+	.aside, .article {
+		width: 100%;
+		border: none;
+	}
+	aside {
+		display: none;
+	}
+}

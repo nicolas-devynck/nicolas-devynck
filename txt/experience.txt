@@ -1,0 +1,14 @@
+<?php echo "\t\t\t\t"; ?>	<h3>Ze Mastermind</h3>
+<?php echo "\t\t\t\t"; ?>	<div>
+<?php echo "\t\t\t\t"; ?>		Développement de « <a href="https://www.microsoft.com/fr-fr/store/p/ze-mastermind/9nblggh4vl3q" target="_blank">Ze Mastermind</a> » Pour la Certification « <a href="http://simplonline.co/" target="_blank">Simplon</a> »<br />
+<?php echo "\t\t\t\t"; ?>		<blockquote>
+<?php echo "\t\t\t\t"; ?>			Application Universelle windows 10.
+<?php echo "\t\t\t\t"; ?>		<blockquote>
+<?php echo "\t\t\t\t"; ?>	</div>
+<?php echo "\t\t\t\t"; ?>	<h3>Hackathon ERDF</h3>
+<?php echo "\t\t\t\t"; ?>	<div>
+<?php echo "\t\t\t\t"; ?>		Participation et second lauréat au hackathon organisé par « <a href="http://www.erdf.fr/" target="_blank">ERDF</a> »<br />
+<?php echo "\t\t\t\t"; ?>		<blockquote>
+<?php echo "\t\t\t\t"; ?>			En équipe, développer en 48 heures une application mobile basée sur un cahier des charges.
+<?php echo "\t\t\t\t"; ?>		</blockquote>
+<?php echo "\t\t\t\t"; ?>	</div>
