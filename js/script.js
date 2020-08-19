@@ -40,6 +40,12 @@ $("#forma h3").click(function() {
 		animateTo:360, 
    });
 });
+$("#comp h3").click(function() {
+	$("#engr8").rotate({
+		angle:0,
+		animateTo:360, 
+   });
+});
 // fonction accordion jquery ui
 $(function() {
   $( ".accordion" ).accordion({
