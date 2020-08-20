@@ -65,6 +65,17 @@ h2 {
 .body {
 	padding: 130px 5% 0% 5%;
 }
+.left, .right {
+	padding: 10px;
+	float: left;
+}
+.left {
+	width: calc(33% - 20px);
+}
+.right {
+	border-left: solid 2px #888888;
+	width: calc(66% - 20px);
+}
 /* CSS Contact */
 .input_contact {
 	width: 50%;

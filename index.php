@@ -47,7 +47,7 @@
 				</div>
 			</div>
 			<div class="body">
-				<div class="competences">
+				<div class="left">
 					<!-- competences -->
 					<h2>COMPÉTENCES</h2><div id="engr8"></div>
 					<div class="cache_engrenage"></div>
@@ -97,7 +97,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="formation">
+				<div class="right">
 					<!-- Formations -->
 					<h2>FORMATIONS</h2><div id="engr6"></div>
 					<div class="cache_engrenage"></div>
@@ -135,8 +135,6 @@
 							Gestion des stocks, défendre un produit devant un jury, apprentissage de diverses techniques de vente.
 						</div>
 					</div>
-				</div>
-				<div class="experiances">
 					<!-- experiance -->
 					<h2>EXPÉRIENCES PROFESSIONNELLES</h2><div id="engr7"></div>
 					<div class="cache_engrenage"></div>
@@ -177,8 +175,6 @@
 							Mise en rayon, accueil du client et divers dépannages en informatique.
 						</div>
 					</div>
-				</div>
-				<div class="contact">
 					<!-- Formulaire de contacte -->
 					<h2>Contactez moi</h2><div id="engr9"></div>
 					<div class="cache_engrenage"></div>
@@ -209,6 +205,7 @@
 						</div>
 					</form>
 				</div>
+				<div class="clear"></div>
 			</div>
 		</div>
 		<!-- Ajax, Engrenage -->
