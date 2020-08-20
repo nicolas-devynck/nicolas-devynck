@@ -39,10 +39,8 @@
 				<div id="engr4"></div>
 				<div id="engr5"></div>
 				<h1>TECHNICIEN DE MAINTENANCE INFORMATIQUE</h1>
-				
 				<div id="logo"></div>
 				<div id="text-logo">
-					
 				<div id="nom-logo">Devynck Nicolas</div>
 					<a href="http://github.com/nicolas-devynck" target="_blank"><img src="css/github.png" height="35" width="35" alt="Github" /><span>Sur Github</span></a>
 					<a href="http://linkedin.com/in/nicolas-devynck-275807195" target="_blank"><img src="css/in.png" height="35" width="35" alt="Linkedin" /><span>Sur linkedin</span></a>
