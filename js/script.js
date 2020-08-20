@@ -1,12 +1,3 @@
-//script scroll sur les liens
-$(document).ready(function() {
-		$('.scrollTo').on('click', function() { // Au clic sur un élément
-		var page = $(this).attr('href'); // Page cible
-		var speed = 750; // Durée de l'animation (en ms)
-		$('html, body').animate( { scrollTop: $(page).offset().top -55 }, speed ); // Go avec le declage de nav
-		return false;
-	});
-});
 //script engrenage
 var iScrollPos = 0; // variable qui contiendra la position du scroll
 $(window).scroll(function () {
@@ -28,19 +19,19 @@ $(window).scroll(function () {
 	}
 	iScrollPos = iCurScrollPos;
 });
-$("#proj h3").click(function() {
+$("#formation h3").click(function() {
 	$("#engr6").rotate({
 		angle:0,
 		animateTo:360, 
    });
 });
-$("#forma h3").click(function() {
+$("#experiances h3").click(function() {
 	$("#engr7").rotate({
 		angle:0,
 		animateTo:360, 
    });
 });
-$("#comp h3").click(function() {
+$("#competences h3").click(function() {
 	$("#engr8").rotate({
 		angle:0,
 		animateTo:360, 

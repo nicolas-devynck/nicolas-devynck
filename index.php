@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<title>Curriculum Vitae Developpeur Web</title>
+		<title>Curriculum Vitae</title>
 		<!-- Encodage UTF8 -->
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="Content-Type" content="UTF-8">
@@ -21,46 +21,39 @@
 		<!-- Meta pour les ecran mobile HD -->
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
 		<!-- Liens JQuery plus son plugin, CSS -->
-		<script type="text/javascript" src="js/jQuery.js"></script>
-		<script type="text/javascript" src="js/jQueryRotate.js"></script>
-		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		<script src="js/jQuery.js"></script>
+		<script src="js/jQueryRotate.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="js/jquery-ui.min.css">
 		<link rel="stylesheet" type="text/css" href="js/jquery-ui.theme.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="icon" type="image/png" href="css/logo.png" />
-
 	</head>
 	<body>
 		<!-- Engrenage JQuery -->
 		<div id="engr1"></div>
 		<div id="engr2"></div>
 		<div id="engr3"></div>
-		<div>
-			<div class="nav">
-				<!-- Logo -->
-				<div id="logo"></div>
-				<!-- Menu -->
-				<span>[<a class="scrollTo" href="#Projet"> Projet </a>]</span>
-				<span>[<a class="scrollTo" href="#formation"> Formations </a>]</span> 
-				<span>[<a class="scrollTo" href="#contact"> Contact </a>]</span>
-				<!-- Engrenage JQuery Bis -->
+		<div id="cadre">
+			<div class="header">
 				<div id="engr4"></div>
 				<div id="engr5"></div>
+				<h1>TECHNICIEN DE MAINTENANCE INFORMATIQUE</h1>
+				
+				<div id="logo"></div>
+				<div id="text-logo">
+					
+				<div id="nom-logo">Devynck Nicolas</div>
+					<a href="http://github.com/nicolas-devynck" target="_blank"><img src="css/github.png" height="35" width="35" alt="Github" /><span>Sur Github</span></a>
+					<a href="http://linkedin.com/in/nicolas-devynck-275807195" target="_blank"><img src="css/in.png" height="35" width="35" alt="Linkedin" /><span>Sur linkedin</span></a>
+				</div>
 			</div>
-		</div>
-		<div id="cadre">
-			<!-- header -->
-			<header>
-				<img src="css/titre.png" alt="Devynck Nicolas Développeur Web" />
-				<div id="url">www.nicolas-devynck.fr</div>
-				<div id="mail_imp">contact@nicolas-devynck.fr</div> 
-			</header>
-			<aside>
-				<div class="aside">
-					<h2 id="info">COMPÉTENCES</h2><div id="engr8"></div>
-					<div class="cache_engrenage"></div>
+			<div class="body">
+				<div class="competences">
 					<!-- competences -->
-					<div class="accordion" id="comp">
+					<h2>COMPÉTENCES</h2><div id="engr8"></div>
+					<div class="cache_engrenage"></div>
+					<div class="accordion" id="competences">
 						<h3>Informatique :</h3>
 						<div>
 							Analyser les besoins du client.<br/>
@@ -106,13 +99,11 @@
 						</div>
 					</div>
 				</div>
-			</aside>
-			<article>
-				<div class="article">
-					<h2 id="Projet">FORMATIONS</h2><div id="engr6"></div>
-					<div class="cache_engrenage"></div>
+				<div class="formation">
 					<!-- Formations -->
-					<div class="accordion" id="proj">
+					<h2>FORMATIONS</h2><div id="engr6"></div>
+					<div class="cache_engrenage"></div>
+					<div class="accordion" id="formation">
 						<h3>Développement web, Simplon, Narbonne</h3>
 						<div>
 							2015/2016
@@ -146,10 +137,12 @@
 							Gestion des stocks, défendre un produit devant un jury, apprentissage de diverses techniques de vente.
 						</div>
 					</div>
-					<h2 id="formation">EXPÉRIENCES PROFESSIONNELLES</h2><div id="engr7"></div>
-					<div class="cache_engrenage"></div>
+				</div>
+				<div class="experiances">
 					<!-- experiance -->
-					<div class="accordion" id="forma">
+					<h2>EXPÉRIENCES PROFESSIONNELLES</h2><div id="engr7"></div>
+					<div class="cache_engrenage"></div>
+					<div class="accordion" id="experiances">
 						<h3>Chef cuisine, Meli-melo, Narbonne.</h3>
 						<div>
 							2017/2019
@@ -186,56 +179,41 @@
 							Mise en rayon, accueil du client et divers dépannages en informatique.
 						</div>
 					</div>
-					<div class="contact">
-						<h2 id="contact">Contactez moi</h2><div id="engr9"></div>
-						<div class="cache_engrenage"></div>
-						<!-- Formulaire de contacte -->
-						<form method="post" action="php/mail.php" id="formulaire">
-							<h3>Vos Coordonnées :</h3>
-							<div class="input_contact">
-								<label for="nom">Nom & Prénom :</label>
-								<br />
-								<input type="text" name="nom" id="nom" />
-								<br />
-								<label for="mail">Mail :</label>
-								<br />
-								<input type="email" name="mail" id="mail" placeholder="contact@example.com" />
-								<br />
-							</div>
-							<h3>Message :</h3>
-							<div class="input_contact">
-								<label for="sujet">Sujet :</label>
-								<br />
-								<input type="text" name="sujet" id="sujet" />
-								<br />
-								<label for="msg">Message :</label>
-								<br />
-								<textarea name="msg" id="msg"></textarea>
-								<div class="bouton">
-									<input type="submit" value="Envoyer" />
-								</div>
-							</div>
-						</form>
-					</div>
-					<div class="clear"></div>
 				</div>
-			</article>
-			<footer>
-				<div class="footer">
-					<!-- Footer -->
-					© Devynck nicolas 2015-2016
-					<br />
-					Les portes de l'avenir sont ouvertes à ceux qui savent les pousser. <a href="https://fr.wikipedia.org/wiki/Coluche" target="_blank">(coluche)</a><br />
-					<!-- rezo -->
-					<div class="rezo">
-						<a href="http://github.com/nicolas-devynck" target="_blank"><img src="css/github.png" height="35" width="35" alt="Github" /><span>Sur Github</span></a>
-						<a href="http://linkedin.com/in/nicolas-devynck-275807195" target="_blank"><img src="css/in.png" height="35" width="35" alt="Page FB" /><span> Sur linkedin</span></a>
-					</div>
+				<div class="contact">
+					<!-- Formulaire de contacte -->
+					<h2>Contactez moi</h2><div id="engr9"></div>
+					<div class="cache_engrenage"></div>
+					<form method="post" action="php/mail.php" id="formulaire">
+						<h3>Vos Coordonnées :</h3>
+						<div class="input_contact">
+							<label for="nom">Nom & Prénom :</label>
+							<br />
+							<input type="text" name="nom" id="nom" />
+							<br />
+							<label for="mail">Mail :</label>
+							<br />
+							<input type="email" name="mail" id="mail" placeholder="contact@example.com" />
+							<br />
+						</div>
+						<h3>Message :</h3>
+						<div class="input_contact">
+							<label for="sujet">Sujet :</label>
+							<br />
+							<input type="text" name="sujet" id="sujet" />
+							<br />
+							<label for="msg">Message :</label>
+							<br />
+							<textarea name="msg" id="msg"></textarea>
+							<div class="bouton">
+								<input type="submit" value="Envoyer" />
+							</div>
+						</div>
+					</form>
 				</div>
-				<div class="clear"></div>
-			</footer>
+			</div>
 		</div>
-		<!-- Script ajax, Engrenage, Scroll sur les ancres -->
-		<script type="text/javascript" src="js/script.js"></script>
+		<!-- Ajax, Engrenage -->
+		<script src="js/script.js"></script>
 	</body>
 </html>

@@ -1,8 +1,5 @@
 @charset "utf-8";
 /* CSS General */
-* {
-	box-sizing: border-box;
-}
 body {
 	background-color: #666666;
 	padding: 0% 10% 0% 10%;
@@ -16,95 +13,58 @@ a {
 a:hover {
 	color: #555555;
 }
+h1 {
+	margin-top: 5px;
+	margin-left: 15%;
+	margin-bottom: 0px;
+}
 h2 {
 	border-bottom: solid 2px #888888;
 	text-align: right;
 }
-h3 {
-	font-size: 18px;
-}
-/* header */
-header {
-	margin-top: 25px;
-}
-header img {
-	margin: auto;
-	display:block;
-	width: 90%;
-	height: 90%;
-}
-#url, #mail_imp {
-	display:none;
-}
-/* logo */
-#logo {
-	background-image: url(logo.png);
-	background-position: 50% 50%;
-	background-size: cover;
-	position: fixed;
-	top: 6px;
-	left: 11%;
-	width: 30px;
-	height: 30px;
-}
-/* CSS menus */
-.nav {
-	position: fixed;
-	left: 0;
-	width: 100%;
-	text-align: center;
-	font-size: 18px;
-	background-color: #ffc354;
-	box-shadow: 0px 8px 12px #aaa;
-	border-bottom: solid 2px #000000;
-	padding: 10px;
-	z-index: 1;
-}
-.nav span {
-	white-space: nowrap;
-}
-/* CSS mise en page */
 #cadre {
 	background-color: #ffffff;
 	border-right: solid 3px #000000;
 	border-left: solid 3px #000000;
-	padding: 5% 5% 0% 5%;
-}
-.aside, .footer, .article {
-	text-align:justify;
-	float: left;
-	position: relative;
-	padding: 1%;
 }
 .clear {
 	clear: both;
 }
-.footer {
+/* header */
+.header {
+	background-color: #ffc354;
+	position: fixed;
+	left: 0px;
 	width: 100%;
-	border-top: solid 2px #888888;
-	text-align: center;
-	margin-top: 1%;
+	z-index: 1;
+	box-shadow: 0px 8px 12px #aaa;
+	border-bottom: solid 2px #000000;
+	height: 13%;
 }
-.aside {
-	width: 25%;
+.header img, .header span {
+	vertical-align: middle;
+	display: inline-block;
 }
-.article {
-	width: 74%;
-	border-left: solid 2px #888888;
+#nom-logo {
+	font-size: x-large;
 }
-.accordion blockquote {
-	color : #444;
+/* logo */
+#logo {
+	margin-left: 15%;
+	margin-right: 10px;
+	background-image: url(logo.png);
+	background-position: 50% 50%;
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	background-color: #FFF;
+	border-radius: 100%;
+	border: solid 2px #000000;
+	float: left;
 }
-/* rezo */
-.rezo {
-	text-align: center;
-}
-.rezo img, .rezo span {
-  vertical-align: middle;
-  display: inline-block;
-}
-.rezo a {
-	white-space: nowrap;
+/* body */
+.body {
+	padding: 10% 5% 0% 5%;
 }
 /* CSS Contact */
 .input_contact {
@@ -115,16 +75,6 @@ input[type=text], input[type=email], input[type=url], textarea {
 	border-radius: 5px;
 	background-color: #ffc354;
 	width: 100%;
-}
-::-webkit-input-placeholder { /* Chrome */
-	color: black;
-}
-::-moz-placeholder { /* Firefox 19+ */
-  color: black;
-  opacity: 1;
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: black;
 }
 textarea {
 	height: 150px;
@@ -190,80 +140,4 @@ textarea {
 	right: 12px;
 	width: 50px;
 	height: 50px;
-}
-/* Media Query */
-/* affichage pour tablette */
-@media screen and (max-width: 880px) {
-	header {
-		margin-top: 50px;
-	}
-	h1 {
-		width: 59%;
-	}
-	body {
-		padding: 0% 5% 0% 5%;
-	}
-	.nav {
-		font-size: 16px;
-	}
-	#cadre {
-		border-right: solid 1px;
-		border-left: solid 1px;
-	}
-	.aside, .article {
-		width: 100%;
-		border: none;
-	}
-	.input_contact {
-		width: 65%;
-	}
-	#engr1, #engr2, #engr3, #engr4, #engr5, #logo {
-		display: none;
-	}
-}
-/* affichage pour telephone */
-@media screen and (max-width: 495px) {
-	h1 {
-		width: 76%;
-	}	
-	body {
-		padding: 0%;
-	}
-	#cadre {
-		border: none;
-	}
-	.input_contact {
-		width: 75%;
-	}
-}
-/* Vertion imprimente */
-@media print {
-	#url, #mail {
-		font-size: 16px;
-		font-weight: bold;
-		display:block;
-	}
-	h1 {
-		width: 76%;
-	}
-	body {
-		background-color: #ffffff;
-		padding: 0%;
-		margin: 0%;
-		color: #000066;
-	}
-	#cadre {
-		border: none;
-		padding: 0%;
-	}
-	nav, .ancre, footer, #engr1, #engr2, #engr3, .contact, #logo {
-		display: none;
-	}
-	.aside, .article {
-		width: 100%;
-		border: none;
-	}
-	aside {
-		display: none;
-	}
 }
