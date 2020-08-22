@@ -5,15 +5,11 @@ $(window).scroll(function () {
 	if (iCurScrollPos > iScrollPos) { // scroll down
 		$("#engr1").rotate(-iCurScrollPos); //.rotate = plugin rotate
 		$("#engr2").rotate(iCurScrollPos*2+25); // *2 car engr2 et 2 fois plus petit qu'engr1 et +25 pour aligner les 2
-		$("#engr3").css({ top : iCurScrollPos-100 }); //-100 pour le cacher engr3 de l'ecran quant le scoll et en haut
-		$("#engr3").rotate(iCurScrollPos);
 		$("#engr4").rotate(iCurScrollPos);
 		$("#engr5").rotate(-iCurScrollPos*2);
 	} else { // scroll up
 		$("#engr1").rotate(-iCurScrollPos);
 		$("#engr2").rotate(iCurScrollPos*2+25);
-		$("#engr3").css({ top : iCurScrollPos-100 });
-		$("#engr3").rotate(iCurScrollPos);
 		$("#engr4").rotate(iCurScrollPos);
 		$("#engr5").rotate(-iCurScrollPos*2);
 	}

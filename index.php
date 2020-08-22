@@ -31,11 +31,10 @@
 	</head>
 	<body>
 		<!-- Engrenage JQuery -->
-		<div id="engr1"></div>
-		<div id="engr2"></div>
-		<div id="engr3"></div>
 		<div id="cadre">
 			<div class="header">
+				<div id="engr1"></div>
+				<div id="engr2"></div>
 				<div id="engr4"></div>
 				<div id="engr5"></div>
 				<h1>TECHNICIEN DE MAINTENANCE INFORMATIQUE</h1>
