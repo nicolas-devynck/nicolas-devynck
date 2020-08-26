@@ -4,12 +4,10 @@ $(window).scroll(function () {
     var iCurScrollPos = $(this).scrollTop(); // on passe la position du scroll
 	if (iCurScrollPos > iScrollPos) { // scroll down
 		$("#engr1").rotate(-iCurScrollPos); //.rotate = plugin rotate
-		$("#engr2").rotate(iCurScrollPos*2+25); // *2 car engr2 et 2 fois plus petit qu'engr1 et +25 pour aligner les 2
 		$("#engr4").rotate(iCurScrollPos);
 		$("#engr5").rotate(-iCurScrollPos*2);
 	} else { // scroll up
 		$("#engr1").rotate(-iCurScrollPos);
-		$("#engr2").rotate(iCurScrollPos*2+25);
 		$("#engr4").rotate(iCurScrollPos);
 		$("#engr5").rotate(-iCurScrollPos*2);
 	}
