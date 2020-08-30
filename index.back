@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Curriculum Vitae</title>
+		<!-- Encodage UTF8 -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="Content-Type" content="UTF-8">
+		<!-- Meta pour les robots -->
+		<meta name="Content-Language" content="fr">
+		<meta name="description" content="CV Nicolas Devynck, CV developpeur PHP, Narbonne, Creation de sites, developpement web, XHTML CSS">
+		<meta name="keywords" content="cv d&eacute;veloppeur narbonne, developpement web, developpeur web, CV freelance, CV developpeur PHP, Narbonne, freelance, indépendant, creation site internet, developpement">
+		<meta name="Copyright" content="Devynck nicolas">
+		<meta name="Author" content="Devynck nicolas">
+		<meta name="Identifier-Url" content="http://www.nicolas-devynck.fr/">
+		<meta name="Revisit-After" content="30 days">
+		<meta name="Robots" content="all">
+		<meta name="Rating" content="general">
+		<meta name="Distribution" content="global">
+		<meta name="Geography" content="France">
+		<meta name="Category" content="internet">
+		<!-- Meta pour les ecran mobile HD -->
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+		<!-- Liens JQuery plus son plugin, CSS -->
+		<script src="js/jQuery.js"></script>
+		<script src="js/jQueryRotate.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="js/jquery-ui.min.css">
+		<link rel="stylesheet" type="text/css" href="js/jquery-ui.theme.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="icon" type="image/png" href="css/logo.png" />
+	</head>
+	<body>
+		<!-- Engrenage JQuery -->
+		<div id="cadre">
+			<div class="header">
+				<div id="engr1"></div>
+				<div id="engr2"></div>
+				<div id="engr4"></div>
+				<div id="engr5"></div>
+				<h1>TECHNICIEN DE MAINTENANCE INFORMATIQUE</h1>
+				<div id="logo"></div>
+				<div id="text-logo">
+				<div id="nom-logo">Devynck Nicolas</div>
+					<a href="http://github.com/nicolas-devynck" target="_blank"><img src="css/github.png" height="35" width="35" alt="Github" /><span>Sur Github</span></a>
+					<a href="http://linkedin.com/in/nicolas-devynck-275807195" target="_blank"><img src="css/in.png" height="35" width="35" alt="Linkedin" /><span>Sur linkedin</span></a>
+				</div>
+			</div>
+			<div class="body">
+				<div class="left">
+					<!-- competences -->
+					<h2>COMPÉTENCES</h2><div id="engr8"></div>
+					<div class="cache_engrenage"></div>
+					<div class="accordion" id="competences">
+						<h3>Informatique :</h3>
+						<div>
+							Analyser les besoins du client.<br/>
+							Établir un cahier des charges.<br/>
+							Installer, entretenir, dépanner, changer et régler du matériel.<br/>
+							Configurer un poste de travail.<br/>
+							Conception Arduino<br/>
+							Programmer en PHP, JavaScript, SQL, HTML, CSS. Notion en Python et C/C++.<br/>
+							Utiliser le système d’exploitation Linux.
+						</div>
+						<h3>Logiciels :</h3>
+						<div>
+							Microsoft office/Libre Office – maîtrise.<br/>
+							Visuel Studio – utilise.<br/>
+							Gimp – notions.<br/>
+							Apache – utilise.<br/>
+							Git – utilise.<br/>
+							Virtualbox – notions.
+						</div>
+						<h3>Vente :</h3>
+						<div>
+							Accueillir une clientèle.<br/>
+							Proposer un service et/ou produit adapté à la demande client.<br/>
+							Réaliser la mise en rayon.<br/>
+							Renseigner un client.<br/>
+							Conclure une vente.
+						</div>
+						<h3>Cuisine :</h3>
+						<div>
+							Préparer/cuire : viandes, poissons et légumes.<br/>
+							Dresser des plats pour le service.<br/>
+							Conditionner un produit.<br/>
+							Entretenir outils et équipements.<br/>
+							Contrôle et application des règles d’hygiène.<br/>
+							Former du personnel à des procédures techniques .
+						</div>
+						<h3>Pâtisserie :</h3>
+						<div>
+							Préparation et cuisson de diverses pâtes.<br/>
+							Notion en confiserie.<br/>
+							Effectuer le montage et la décoration.<br/>
+							Confectionner des chocolats.
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<!-- Formations -->
+					<h2>FORMATIONS</h2><div id="engr6"></div>
+					<div class="cache_engrenage"></div>
+					<div class="accordion" id="formation">
+						<h3>Développement web, Simplon, Narbonne</h3>
+						<div>
+							2015/2016
+							Code informatique. PHP JavaScript SQL CSS HTML.
+							Utilisation de plateformes collaborative (Git, Trello, Slack).
+						</div>
+						<h3>DAEU B (Scientifique), IUT Bézier.</h3>
+						<div>
+							2012/2013
+							Bac pour adultes en 4 matières : Français, Maths, Chimie, Physique.
+						</div>
+						<h3>Assistant d’exploitation, H&C Conseil, Narbonne</h3>
+						<div>
+							2009/2010
+							Étude de la convention collective hôtellerie restauration.
+							Gestion de stocks et gestion de la carte.
+						</div>
+						<h3>CQP restauration, H&C conseil, Narbonne.</h3>
+						<div>
+							2008/2009
+							Connaissance des produits et des techniques de préparations.
+						</div>
+						<h3>B2I (Brevet Informatique et internet), GRETA Limoux.</h3>
+						<div>
+							2002
+							Pack Office (Word, Excel, Powerpoint, Access) et introduction sur la législation liée à l’informatique.
+						</div>
+						<h3>BEP vente, CFA Charles Cros Carcassonne.</h3>
+						<div>
+							2000/2001
+							Gestion des stocks, défendre un produit devant un jury, apprentissage de diverses techniques de vente.
+						</div>
+					</div>
+					<!-- experiance -->
+					<h2>EXPÉRIENCES PROFESSIONNELLES</h2><div id="engr7"></div>
+					<div class="cache_engrenage"></div>
+					<div class="accordion" id="experiances">
+						<h3>Chef cuisine, Meli-melo, Narbonne.</h3>
+						<div>
+							2017/2019
+							Gestion des stocks préparation globale.
+						</div>
+						<h3>Commis salade, Petit pastis, Narbonne.</h3>
+						<div>
+							2016
+							Préparation des salades et dressage.
+						</div>
+						<h3>Seconde de cuisine, Dolce italia, Narbonne.</h3>
+						<div>
+							2013/2014
+							Gestion des stocks, préparation et dressage des salades / dessert. Remplacement du chef durant ses congés.
+						</div>
+						<h3>Cuisinier, L&L, Gruissan.</h3>
+						<div>
+							2011
+							Préparation et dressage des plats chauds.
+						</div>
+						<h3>Apprenti cuisine, Casa pizza grill, Narbonne.</h3>
+						<div>
+							2008/2009
+							Préparation des salades, desserts et dressage.
+						</div>
+						<h3>Commis, hôtel, Printania, Lourdes.</h3>
+						<div>
+							2007
+							Petite préparation, plonge et aide de cuisine.
+						</div>
+						<h3>Apprenti vendeur, Aude Micro-informatique Limoux.</h3>
+						<div>
+							2000
+							Mise en rayon, accueil du client et divers dépannages en informatique.
+						</div>
+					</div>
+					<!-- Formulaire de contacte -->
+					<h2>Contactez moi</h2><div id="engr9"></div>
+					<div class="cache_engrenage"></div>
+					<form method="post" action="php/mail.php" id="formulaire">
+						<h3>Vos Coordonnées :</h3>
+						<div class="input_contact">
+							<label for="nom">Nom & Prénom :</label>
+							<br />
+							<input type="text" name="nom" id="nom" />
+							<br />
+							<label for="mail">Mail :</label>
+							<br />
+							<input type="email" name="mail" id="mail" placeholder="contact@example.com" />
+							<br />
+						</div>
+						<h3>Message :</h3>
+						<div class="input_contact">
+							<label for="sujet">Sujet :</label>
+							<br />
+							<input type="text" name="sujet" id="sujet" />
+							<br />
+							<label for="msg">Message :</label>
+							<br />
+							<textarea name="msg" id="msg"></textarea>
+							<div class="bouton">
+								<input type="submit" value="Envoyer" />
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!-- Ajax, Engrenage -->
+		<script src="js/script.js"></script>
+	</body>
+</html>
