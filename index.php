@@ -1,0 +1,1 @@
+<img src="logo_noob.png" alt="Girl in a jacket"> 
