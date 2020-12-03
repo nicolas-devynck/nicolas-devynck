@@ -135,3 +135,70 @@ textarea {
 	width: 50px;
 	height: 50px;
 }
+/* media query */
+/* Print */
+@media print {
+	#menu, #footer, aside {
+	  display:none;
+	}
+	body {
+	  font-size:120%;
+	  color:black;
+	}
+  }
+  /* responsive */
+@media screen and (max-width: 1090px) {
+	#engr4 {
+		display: none;
+	}
+	#engr5 {
+		top: -68px;
+		width: 100px;
+		height: 100px;
+	}
+}
+@media screen and (max-width: 1040px) {
+	#engr5, #engr9, #engr7, #engr6, #engr8 {
+		display: none;
+	}
+	.cache_engrenage {
+		margin-bottom:-40px;
+		top: -20px;
+	}
+}
+@media screen and (max-width: 950px) {
+	h1 {
+		font-size : x-large;
+	}
+	.left, .right {
+		float:none;
+	}
+	.left {
+		width: calc(100% - 20px);
+	}
+	.right {
+		border-left: none;
+		width: calc(100% - 20px);
+	}
+
+}
+@media screen and (max-width: 750px) {
+	#engr1 {
+		display: none;
+	}
+	.header {
+		padding-left: 3%;
+	}
+}
+@media screen and (max-width: 640px) {
+	body {
+		padding: 0;
+	}
+	#cadre {
+		border: none;
+	}
+	h1 {
+		font-size : large;
+	}
+
+}
