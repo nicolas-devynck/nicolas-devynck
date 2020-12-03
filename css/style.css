@@ -203,5 +203,9 @@ textarea {
 	h2 {
 		font-size : large;
 	}
-
+}
+@media screen and (max-width: 470px) {
+	#nom-logo {
+		font-size : large;
+	}
 }
