@@ -145,7 +145,7 @@ textarea {
 	  font-size:120%;
 	  color:black;
 	}
-  }
+}
   /* responsive */
 @media screen and (max-width: 1090px) {
 	#engr4 {
@@ -180,7 +180,6 @@ textarea {
 		border-left: none;
 		width: calc(100% - 20px);
 	}
-
 }
 @media screen and (max-width: 750px) {
 	#engr1 {
