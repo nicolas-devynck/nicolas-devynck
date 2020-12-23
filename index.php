@@ -101,6 +101,11 @@
 					<h2>FORMATIONS</h2><div id="engr6"></div>
 					<div class="cache_engrenage"></div>
 					<div class="accordion" id="formation">
+						<h3>Electronique test et developement (afpa)</h3>
+						<div>
+							2020/2021
+							electronique analogique et numerique
+						</div>
 						<h3>Développement web, Simplon, Narbonne</h3>
 						<div>
 							2015/2016
