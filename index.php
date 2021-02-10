@@ -53,22 +53,27 @@
 					<div class="accordion" id="competences">
 						<h3>Informatique :</h3>
 						<div>
-							Analyser les besoins du client.<br/>
-							Établir un cahier des charges.<br/>
-							Installer, entretenir, dépanner, changer et régler du matériel.<br/>
-							Configurer un poste de travail.<br/>
-							Conception Arduino<br/>
-							Programmer en PHP, JavaScript, SQL, HTML, CSS. Notion en Python et C/C++.<br/>
-							Utiliser le système d’exploitation Linux.
+							Installer, entretenire, dépanner, changer et régler du matériel.<br/>
+							Programmer en PHP, JavaScript, SQL, C.<br/>
+							Notion en Python et C++.<br/>
+							Utiliser le système d'exploitation Linux.
 						</div>
 						<h3>Logiciels :</h3>
 						<div>
-							Microsoft office/Libre Office – maîtrise.<br/>
-							Visuel Studio – utilise.<br/>
+							Microsoft office/Libre Office.<br/>
+							Visuel Studio / Eclipse.<br/>
+							NodeJs / Apache.<br/>
+							Git / Github.<br/>
 							Gimp – notions.<br/>
-							Apache – utilise.<br/>
-							Git – utilise.<br/>
+							LTSpice / KiCad – notions. <br />
 							Virtualbox – notions.
+						</div>
+						<h3>électronique :</h3>
+						<div>
+							Développer des microcontroleurs.<br/>
+							Concevoire un circuit imprimé.<br/>
+							Simuler des fonctions avec un outil de CAO.<br/>
+							Brasage – notions.
 						</div>
 						<h3>Vente :</h3>
 						<div>
@@ -78,21 +83,17 @@
 							Renseigner un client.<br/>
 							Conclure une vente.
 						</div>
-						<h3>Cuisine :</h3>
+						<h3>Cuisine / Pâtisserie :</h3>
 						<div>
 							Préparer/cuire : viandes, poissons et légumes.<br/>
 							Dresser des plats pour le service.<br/>
+							Effectuer le montage et la décoration.<br/>
+							Contrôle et application des règles d’hygiène.<br/>
+							Former du personnel à des procédures techniques. <br />
 							Conditionner un produit.<br/>
 							Entretenir outils et équipements.<br/>
-							Contrôle et application des règles d’hygiène.<br/>
-							Former du personnel à des procédures techniques .
-						</div>
-						<h3>Pâtisserie :</h3>
-						<div>
 							Préparation et cuisson de diverses pâtes.<br/>
-							Notion en confiserie.<br/>
-							Effectuer le montage et la décoration.<br/>
-							Confectionner des chocolats.
+							Notion en confiserie / chocolats.
 						</div>
 					</div>
 				</div>
@@ -101,16 +102,19 @@
 					<h2>FORMATIONS</h2><div id="engr6"></div>
 					<div class="cache_engrenage"></div>
 					<div class="accordion" id="formation">
-						<h3>Electronique test et developement (afpa)</h3>
+						<h3>Développement électronique, Afpa Balma</h3>
 						<div>
 							2020/2021
-							electronique analogique et numerique
+							Composant de base, (résistance, condensateur…)
+							microcontrôleur, microprocesseur et mémoire.
+							Langage informatique C.
+							Utilisation de logiciel CAO (KiCad, LTspice).
 						</div>
 						<h3>Développement web, Simplon, Narbonne</h3>
 						<div>
 							2015/2016
-							Code informatique. PHP JavaScript SQL CSS HTML.
-							Utilisation de plateformes collaborative (Git, Trello, Slack).
+							Langage informatique. PHP JavaScript SQL CSS HTML.
+							Utilisation de plateformes collaborative (Git).
 						</div>
 						<h3>DAEU B (Scientifique), IUT Bézier.</h3>
 						<div>
