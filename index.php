@@ -104,7 +104,7 @@
 					<div class="accordion" id="formation">
 						<h3>Développement électronique, Afpa Balma</h3>
 						<div>
-							2020/2021
+							<h4>2020/2021 :</h4>
 							Composant de base, (résistance, condensateur…)
 							microcontrôleur, microprocesseur et mémoire.
 							Langage informatique C.
@@ -112,34 +112,34 @@
 						</div>
 						<h3>Développement web, Simplon, Narbonne</h3>
 						<div>
-							2015/2016
+							<h4>2015/2016 :</h4>
 							Langage informatique. PHP JavaScript SQL CSS HTML.
 							Utilisation de plateformes collaborative (Git).
 						</div>
 						<h3>DAEU B (Scientifique), IUT Bézier.</h3>
 						<div>
-							2012/2013
+							<h4>2012/2013 :</h4>
 							Bac pour adultes en 4 matières : Français, Maths, Chimie, Physique.
 						</div>
 						<h3>Assistant d’exploitation, H&C Conseil, Narbonne</h3>
 						<div>
-							2009/2010
+							<h4>2009/2010 :</h4>
 							Étude de la convention collective hôtellerie restauration.
 							Gestion de stocks et gestion de la carte.
 						</div>
 						<h3>CQP restauration, H&C conseil, Narbonne.</h3>
 						<div>
-							2008/2009
+							<h4>2008/2009 :</h4>
 							Connaissance des produits et des techniques de préparations.
 						</div>
 						<h3>B2I (Brevet Informatique et internet), GRETA Limoux.</h3>
 						<div>
-							2002
+							<h4>2002 :</h4>
 							Pack Office (Word, Excel, Powerpoint, Access) et introduction sur la législation liée à l’informatique.
 						</div>
 						<h3>BEP vente, CFA Charles Cros Carcassonne.</h3>
 						<div>
-							2000/2001
+							<h4>2000/2001 :</h4>
 							Gestion des stocks, défendre un produit devant un jury, apprentissage de diverses techniques de vente.
 						</div>
 					</div>
@@ -149,37 +149,37 @@
 					<div class="accordion" id="experiances">
 						<h3>Chef cuisine, Meli-melo, Narbonne.</h3>
 						<div>
-							2017/2019
+							<h4>2017/2019 :</h4>
 							Gestion des stocks préparation globale.
 						</div>
 						<h3>Commis salade, Petit pastis, Narbonne.</h3>
 						<div>
-							2016
+							<h4>2016 :</h4>
 							Préparation des salades et dressage.
 						</div>
 						<h3>Seconde de cuisine, Dolce italia, Narbonne.</h3>
 						<div>
-							2013/2014
+							<h4>2013/2014 :</h4>
 							Gestion des stocks, préparation et dressage des salades / dessert. Remplacement du chef durant ses congés.
 						</div>
 						<h3>Cuisinier, L&L, Gruissan.</h3>
 						<div>
-							2011
+							<h4>2011 :</h4>
 							Préparation et dressage des plats chauds.
 						</div>
 						<h3>Apprenti cuisine, Casa pizza grill, Narbonne.</h3>
 						<div>
-							2008/2009
+							<h4>2008/2009 :</h4>
 							Préparation des salades, desserts et dressage.
 						</div>
 						<h3>Commis, hôtel, Printania, Lourdes.</h3>
 						<div>
-							2007
+							<h4>2007 :</h4>
 							Petite préparation, plonge et aide de cuisine.
 						</div>
 						<h3>Apprenti vendeur, Aude Micro-informatique Limoux.</h3>
 						<div>
-							2000
+							<h4>2000 :</h4>
 							Mise en rayon, accueil du client et divers dépannages en informatique.
 						</div>
 					</div>
