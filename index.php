@@ -7,8 +7,8 @@
 		<meta name="Content-Type" content="UTF-8">
 		<!-- Meta pour les robots -->
 		<meta name="Content-Language" content="fr">
-		<meta name="description" content="CV Nicolas Devynck, CV developpeur PHP, Narbonne, Creation de sites, developpement web, XHTML CSS">
-		<meta name="keywords" content="cv d&eacute;veloppeur narbonne, developpement web, developpeur web, CV freelance, CV developpeur PHP, Narbonne, freelance, indépendant, creation site internet, developpement">
+		<meta name="description" content="CV Nicolas Devynck, CV developpeur PHP, Creation de sites, developpement web, XHTML CSS">
+		<meta name="keywords" content="cv d&eacute;veloppeur, developpement web, developpeur web, CV freelance, CV developpeur PHP, freelance, indépendant, creation site internet, developpement">
 		<meta name="Copyright" content="Devynck nicolas">
 		<meta name="Author" content="Devynck nicolas">
 		<meta name="Identifier-Url" content="http://www.nicolas-devynck.fr/">
@@ -42,7 +42,6 @@
 				<div id="text-logo">
 				<div id="nom-logo">Devynck Nicolas</div>
 					<a href="http://github.com/nicolas-devynck" target="_blank"><img src="css/github.png" height="35" width="35" alt="Github" /><span>Github</span></a>
-					<a href="http://linkedin.com/in/nicolas-devynck-275807195" target="_blank"><img src="css/in.png" height="35" width="35" alt="Linkedin" /><span>linkedin</span></a>
 				</div>
 			</div>
 			<div class="body">
