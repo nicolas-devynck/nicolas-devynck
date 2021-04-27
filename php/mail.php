@@ -1,4 +1,7 @@
 <?php
+	// paramètre
+	$to = 'info@nicolas-devynck.fr'; // Destinataire
+	$headMsg = 'vous a envoyer un message depuis votre CV'; // Tete du message
 	// on passe les $_POST dans des variables, avec addslashes pour les champs qui n'on pas de paterne (on c'est jamais) et wordwrap qui ajoute un retour de ligne tout les 70 caractaire
 	$sujet = addslashes($_POST['sujet']);
 	$mail = $_POST['mail'];
@@ -18,10 +21,10 @@
 		else { return TRUE; }
 	}
 	function verifMail($fmail) { //Verification du champ mail
-		if (!preg_match('#^[\w.\-]+@[\w.\-]+\.[a-z]{2,6}$#i', $fmail) || strlen($fmail) < 7 || strlen($fmail) > 25) { return FALSE; }
+		if (!preg_match('#^[\w.\-]+@[\w.\-]+\.[a-z]{2,6}$#i', $fmail) || strlen($fmail) < 7 || strlen($fmail) > 25 || $fmail = $to) { return FALSE; }
 		else { return TRUE; }
 	}
-	
+
 	//execute les fonction de verification et recupe les boolean
 	$boolMsg = verifMsg($msg);
 	$boolNom = verifNom($nom);
@@ -36,9 +39,7 @@
 		array("mail", $mail, $boolMail),
 	);
 	
-	if ($boolMsg && $boolNom && $boolSujet && $boolMail) { // si tout est TRUE on envois le mail
-		// Destinataire
-		$to = 'info@nicolas-devynck.fr';
+	if ($boolMsg && $boolNom && $boolSujet && $boolMail) { // si tout est TRUE on envois le mail		
 		// l'en-tête Content-type
 		$headers  = 'MIME-Version: 1.0'."\r\n";
 		$headers .= 'Content-type: text/html; charset=iso-8859-1'."\r\n";
@@ -48,15 +49,14 @@
 		<html>
 		<head><title>'.$sujet.'</title></head>
 		<body>
-			'.$nom.' vous a envoyer un message depuis votre CV<br /><br />
+			'.$nom.' '.$headMsg.'<hr />
 			<b>Message :</b><br />
 			'.$msg.'
 			<hr />
 			<b>Mail :</b>'.$mail.'<br />
 		</body>
-		</html>
-		';
-		
+		</html>';
+
 		// Envoi
 		mail($to, $sujet, $message, $headers);
 	 
