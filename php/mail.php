@@ -21,7 +21,7 @@
 		else { return TRUE; }
 	}
 	function verifMail($fmail) { //Verification du champ mail
-		if (!preg_match('#^[\w.\-]+@[\w.\-]+\.[a-z]{2,6}$#i', $fmail) || strlen($fmail) < 7 || strlen($fmail) > 25 || $fmail == $to) { return FALSE; }
+		if (!preg_match('#^[\w.\-]+@[\w.\-]+\.[a-z]{2,6}$#i', $fmail) || strlen($fmail) < 7 || strlen($fmail) > 25 || $fmail != $to) { return FALSE; }
 		else { return TRUE; }
 	}
 
